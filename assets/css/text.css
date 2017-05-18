@@ -1,0 +1,36 @@
+body{font:13px/1.5 Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif}
+a:focus{ }
+hr{border-color:#ccc;border-style:solid;border-width:1px 0 0;clear:both;height:0}
+h1{font-size:25px}
+h2{font-size:23px}
+h3{font-size:21px}
+h4{font-size:19px}
+h5{font-size:17px}
+h6{font-size:15px}
+ol{list-style:decimal}
+ul{list-style:square}
+li{margin-left:30px}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:20px}
+h1,h2,h3,h4,h5,h6{ font-family: Arial, Helvetica, sans-serif; color: #2a4c84; letter-spacing: -1px;}
+h2,h3{margin-bottom:10px;}
+#main-box-description p{ padding: 0 15px 0 0; font-size: 11px;}
+#main-box-description h1{color: #5c7baf; border-bottom: 1px solid #5c7baf; margin-right: 15px;}
+#main-box-description h2,
+#main-box-description h3, 
+#main-box-description h4, 
+#main-box-description h5, 
+#main-box-description p { padding: 0 14px; }
+#main-box-description ul { display: block; margin: 0; padding: 0 20px 15px 10px; font-size: 11px;}
+#main-box-description table{ font-size: 11px; margin: 0 25px 15px 16px; border-top: 1px solid #ddd; border-left: 1px solid #ddd;}
+#main-box-description table td{ border-bottom: 1px solid #dadada; border-right: 1px solid #dadada; padding: 5px; vertical-align: middle;}
+#main-box-description table th{ background: #ddd; font-weight: bold; font-size: 12px; vertical-align: middle; padding: 5px; color: #5c7baf; border-right: 1px solid #888; border-bottom: 1px solid #888;}
+#main-box-description .content ul li,
+#main-box-description .content-list ul li { background: url(../templates/amata/images/layout/tab-bullet.png) no-repeat 0px -3px; padding-left: 16px; list-style: none; }
+#main-box-description .content-list ul li a{ color: #2a4c84; font-weight: bold; }
+#main-box-description .content{ padding: 0 0 35px 0;}
+#main-box-description .content h5{ margin-bottom: 0;}
+#main-box-description .content #service-cities{ margin: 0; padding: 15px 0 0; display: block; float: left;}
+#main-box-description .content #service-cities li { display: block; float: left; width: 293px; min-height: 100px; margin: 0; background: url(../templates/amata/images/layout/dealer-bg.png) no-repeat bottom right; padding: 0 8px 10px 10px; }
+#main-box-description .content #service-cities li h2 { border-bottom: 1px solid #ddd; font-size: 13px;}
+#main-box-description .content #service-cities li p { color: #666; }
+#main-box-description .content #service-cities li p a { color: #2a4c84;}

@@ -1,0 +1,7 @@
+.holder, canvas {
+zoom: 1;
+}
+ 
+*html #page {
+	height: 100%;
+}

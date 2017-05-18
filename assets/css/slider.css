@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* --- slider --- */
+#slider{margin: 0 0 30px 37px; }
+#slider-box-top{ background: url(../templates/amata/images/layout/slider-box-bg-inner.png) no-repeat right 12px; width: 648px; float: left;}
+#slider-box-bottom{ background: url(../templates/amata/images/layout/slider-box-bg-bottom.png) no-repeat bottom; width: 648px; float: left;}
+#slider-box-inner{ background: url(../templates/amata/images/layout/slider-box-bg-top.png) no-repeat top;width: 648px; height: 360px; float: left; position: relative}
+/* --- tabs --- */
+#tabs{ width: 255px; float: left;}
+#tabs ul{ height: 357px; padding: 0; margin: 0; list-style: none; background: url(../templates/amata/images/layout/tab-bottom--bottom-unactive.png) no-repeat bottom;}
+#tabs ul.active,
+#tabs ul.selected{background: url(../templates/amata/images/layout/tab-bottom--bottom-active.png) no-repeat bottom;}
+#tabs ul li { padding: 12px 0 0; margin: 0; background: url(../templates/amata/images/layout/tab-reg-top-unactive.png) no-repeat top;}
+#tabs ul li:hover,
+#tabs ul li.active,
+#tabs ul li.selected{background: url(../templates/amata/images/layout/tab-reg-top-active.png) no-repeat top; cursor: pointer;}
+#tabs ul li.first{ background: url(../templates/amata/images/layout/tab-top-top-unactive.png) no-repeat top;}
+#tabs ul li.last{ height: 100%;}
+#tabs ul li.after-active,
+#tabs ul li.after-selected{ background: url(../templates/amata/images/layout/tab-reg-top-after-active.png) no-repeat top;}
+#tabs ul li.active:first-child,
+#tabs ul li.selected:first-child
+#tabs ul li.first:hover,
+#tabs ul li.first-selected{ background: url(../templates/amata/images/layout/tab-top-top-active.png) no-repeat top;}
+#tabs ul li div.tab-body{ background: url(../templates/amata/images/layout/tab-middle-unactive.png) repeat-y 8px; padding: 5px 0 8px 12px; width: 243px; display: block;}
+#tabs ul li:hover div.tab-body,
+#tabs ul li.active div.tab-body,
+#tabs ul li.selected div.tab-body{background: url(../templates/amata/images/layout/tab-middle-active.png) repeat-y 8px;}
+#tabs ul li a{color: #002233; text-decoration: none; padding-left: 8px; text-shadow: 1px 1px 1px #888;}
+#slider-box-inner div.tab{ width: 639px; height: 346px; position: absolute; top: 5px; left: 1px; display: none;}
+#slider-box-inner div.hidden{ display:none;}
+#slider-box-inner div.shown{ display:block;}
+#slider-box-inner div.tab h3{ font-size: 1.2em; letter-spacing: -1px; color: #5c7baf; margin-bottom: 2px; padding-bottom: 0;}
+#slider-box-inner div.tab p{ font-size: 11px; line-height: 13px; margin-bottom: 5px;}
+#slider-box-inner div.tab a{color: #4b699c; text-decoration: underline; }
+#slider-box-inner div.tab a.further{ background: url(../templates/amata/images/layout/further-arrow.png) no-repeat center right; padding-right: 7px; padding-left: 10px; font-size: 11px; font-weight: bold; float: right}
+#slider-box-inner div.tab ul li a { float: none; color: #4b699c; font-size: 11px; font-weight: bold; text-decoration: none}
+#slider-box-inner div.tab ul li a:hover {text-decoration: underline; }
+#slider-box-inner div.tab ul li { line-height: 12px; list-style: none; background: url(../templates/amata/images/layout/tab-bullet.png) no-repeat top left; padding: 3px 16px; display: block; float: left; clear: both;}
+#tabs ul li#tab-trigger-030 a{ background: url(../templates/amata/images/layout/tab-trigger-rightful-off.png) no-repeat 18px 11px; }
+#tabs ul li#tab-trigger-031 a{ background: url(../templates/amata/images/layout/tab-trigger-precise-off.png) no-repeat 18px 11px; }
+#tabs ul li#tab-trigger-032 a{ background: url(../templates/amata/images/layout/tab-trigger-reliable-off.png) no-repeat 18px 11px; }
+#tabs ul li#tab-trigger-032:hover a,
+#tabs ul li#tab-trigger-032.selected a{ background: url(../templates/amata/images/layout/tab-trigger-reliable-on.png) no-repeat 18px 11px; }
+#tabs ul li#tab-trigger-033 a{ background: url(../templates/amata/images/layout/tab-trigger-convinient-off.png) no-repeat 18px 11px; }
+#tabs ul li a{ width: 200px; display: block; overflow:hidden; padding: 12px 6px 0 6px;}
+#tabs ul li a span{ text-indent: 9999px; display: block;}
+/* правомерно */
+#tab-030{ background: url(../templates/amata/images/layout/tab-rightful-right.png) no-repeat top right;}
+#tab-030 .content{ background: url(../templates/amata/images/layout/tab-rightful-displays.jpg) no-repeat top left; height: 345px;}
+#tab-030 h2{ background: url(../templates/amata/images/layout/tab-rightful-h2.png) no-repeat top left; display: block; width: 140px; height: 25px; overflow: hidden; margin-bottom: 8px;}
+#tab-030 h2 span{ display: none;}
+#tab-030 div.left{ float: left; width: 305px; height: 340px; display: block; padding: 185px 0 0 20px;}
+#tab-030 div.middle{ float: left; width: 210px; padding: 20px 10px 10px 30px; margin-left: -100px;}
+#tab-030 div.right{ float: left; width: 220px; padding: 50px 0 0 0; margin-left: -5px; }
+#tab-030 ul li { width: 200px;}
+/* точно */
+#tab-031{ background: url(../templates/amata/images/layout/tab-precise-right.png) no-repeat top right;}
+#tab-031 .content{ background: url(../templates/amata/images/layout/tab-precise-bg.jpg) no-repeat 0px 1px; float: left; width: 630px; height: 346px;}
+#tab-031 ul.characteristics{ float: left; width: 370px; list-style: none; padding-top: 20px;}
+#tab-031 ul.characteristics li{ width: 350px; height: 70px; display: block; background: none;}
+#tab-031 ul.characteristics li span{ display: none;}
+#tab-031 ul.characteristics li.error{ background: url(../templates/amata/images/layout/tab-precise-error.png) no-repeat top left; }
+#tab-031 ul.characteristics li.diapasone{ background: url(../templates/amata/images/layout/tab-precise-diapasone.png) no-repeat top left; }
+#tab-031 ul.characteristics li.distance{ background: url(../templates/amata/images/layout/tab-precise-distance.png) no-repeat top left; }
+#tab-031 ul.characteristics li.work-in-the-flow{ background: url(../templates/amata/images/layout/tab-precise-work-in-the-flow.png) no-repeat top left; }
+#tab-031 ul.links{ float: left; display: block; margin-top: 220px;}
+/* надёжно */
+#tab-032{ background: url(../templates/amata/images/layout/tab-reliable-right.png) no-repeat top right;}
+#tab-032 .content{ background: url(../templates/amata/images/layout/tab-reliable-bg.jpg) no-repeat 0px 1px; float: left; width: 630px; height: 346px;}
+#tab-032 ul.characteristics{ float: left; width: 370px; list-style: none; padding-top: 20px;}
+#tab-032 ul.characteristics li{ width: 350px; height: 70px; display: block; background: none;}
+#tab-032 ul.characteristics li span{ display: none;}
+#tab-032 ul.characteristics li.temperature{ background: url(../templates/amata/images/layout/tab-reliable-temperature.png) no-repeat top left; }
+#tab-032 ul.characteristics li.service{ background: url(../templates/amata/images/layout/tab-reliable-service.png) no-repeat top left; }
+#tab-032 ul.characteristics li.warranty{ background: url(../templates/amata/images/layout/tab-reliable-warranty.png) no-repeat top left; height: 30px; }
+#tab-032 ul.links{ float: left; clear: both; display: block; margin-top: 0;}
+/* удобно */
+#tab-033{ background: url(../templates/amata/images/layout/tab-convinient-right.png) no-repeat top right;}
+#tab-033 .content{ background: url(../templates/amata/images/layout/tab-convinient-bg.jpg) no-repeat 0px 1px; float: left; width: 630px; height: 346px;}
+#tab-033 ul.characteristics{ float: left; width: 370px; list-style: none; padding-top: 20px;}
+#tab-033 ul.characteristics li{ width: 350px; height: 70px; display: block; background: none;}
+#tab-033 ul.characteristics li span{ display: none;}
+#tab-033 ul.characteristics li.power{ background: url(../templates/amata/images/layout/tab-convinient-power.png) no-repeat top left;}
+#tab-033 ul.characteristics li.upgrade{ background: url(../templates/amata/images/layout/tab-convinient-upgrade.png) no-repeat top left;}
+#tab-033 ul.characteristics li.remote{ background: url(../templates/amata/images/layout/tab-convinient-remote.png) no-repeat top left;}
+#tab-033 ul.characteristics li.weight{ background: url(../templates/amata/images/layout/tab-convinient-weight.png) no-repeat top left;}
+#tab-033 ul.links{ float: left; clear: both; display: block; margin-top: 0;}

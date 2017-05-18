@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/960.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/text.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/layout.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/slider.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="container">
+	<div id="container-top">
+		<div id="container-bottom">
+			<div class="container_12" id="main-box-index">
+				<div class="grid_12"><a href="#" id="top-device"></a><a href="#" id="logo"></a>
+					<div id="title"></div>
+					<div id="navigation">
+						<ul>
+							<li id="item02"><a href="#"><span>Описание</span></a></li>
+							<li id="item03"><a href="#"><span>Фотографии</span></a></li>
+							<li id="item04"><a href="#"><span>Лицензии</span></a></li>
+							<li id="item05"><a href="#"><span>Публикации</span></a></li>
+							<li id="item06"><a href="#"><span>Сервис</span></a></li>
+							<li id="item07"><a href="#"><span>Купить</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="grid_12 content">
+					<ul id="manage-news-list">
+						<li>
+							<div class="row-content">
+								<!-- Show the title of the post -->
+								<div class="nm_title">
+									<h2>Публикация 1</h2>
+									<h3><a href="ru/presscenter/publications/article-1244184546.htm" title="Заголовок публикации 1">Заголовок публикации 1</a></h3>
+								</div>
+								<!-- Now display the various operations possible with this post -->
+								<div class="nm_button">
+									<!-- Publish/unpublish the post -->
+									<form action="" method="post" name="formpublish" id="formpublish">
+										<input name="publishvalue" type="hidden" value="0" />
+										<input name="publishid" type="hidden" value="48" />
+										<input type="submit" class="button button-unpublish" name="publish" value="Отменить публикацию" />
+									</form>
+								</div>
+								<div class="nm_button">
+									<!-- Show/hide in the menu -->
+									<form action="" method="post" name="formhide" id="formhide">
+										<input name="hidemenuvalue" type="hidden" value="" />
+										<input name="hidemenuid" type="hidden" value="48" />
+										<input type="submit" class="button button-menu" name="hidemenu" value="" />
+									</form>
+								</div>
+								<div class="nm_button">
+									<!-- Put the post on top of the list -->
+									<form action="" method="post" name="formrefresh" id="formrefresh">
+										<input name="refreshid" type="hidden" value="48" />
+										<input type="submit" class="button button-top" name="refresh" value="Наверх" />
+									</form>
+								</div>
+								<div class="nm_button">
+									<!-- Delete the post -->
+									<form action="" method="post" name="formdelete48" id="formdelete48">
+										<input name="deleteid" type="hidden" value="48" />
+										<input type="submit" class="button button-delete" onclick="JavaScript: return doDelete48();" name="delete" value="Удалить" />
+									</form>
+								</div>
+								<div class="nm_button">
+									<!-- Modify the post -->
+									<form action="login/manage-pubs/edit.htm" method="post" name="formedit" id="formedit">
+										<input name="editid" type="hidden" value="48" />
+										<input type="submit" class="button button-edit" name="edit" value="Редактировать" />
+									</form>
+								</div>
+								<div class="nm_button">
+									<!-- Show the post -->
+									<form action="ru/presscenter/publications/article-1244184546.htm" method="post" name="formshow" id="formshow">
+										<input type="submit" class="button button-show" name="show" value="Просмотр" />
+									</form>
+								</div>
+								<div class="nm_eol"></div>
+							</div>
+						</li>
+						<li class="create-new">
+							<div class="row-content"><a href="login/manage-pubs/new.htm" title="Новая публикация">Новая публикация</a>
+								<div class="nm_eol"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div class="grid_4" id="target-links-clients">
+					<h2><span>Клиентам</span></h2>
+					<ul class="clients">
+						<li><a href="/index.php?id=2" title="Ссылка на описание" >Ссылка на описание</a></li>
+						<li><a href="/index.php?id=3" title="Ссылка на фотографии" >Ссылка на фотографии</a></li>
+						<li class="last"><a href="/index.php?id=20" title="Ссылка на сертификаты" >Ссылка на сертификаты</a></li>
+					</ul>
+				</div>
+				<div class="grid_4" id="target-links-distributors">
+					<h2><span>Дистрибуторам</span></h2>
+					<ul class="distributors">
+						<li><a href="/index.php?id=5" title="Ссылка на публикации" >Ссылка на публикации</a></li>
+						<li class="last"><a href="/index.php?id=6" title="Ссылка на сервис" >Ссылка на сервис</a></li>
+					</ul>
+				</div>
+				<div class="grid_4" id="target-links-drivers">
+					<h2><span>Водителям</span></h2>
+					<ul class="drivers">
+						<li><a href="/index.php?id=3" title="Ссылка на фотографии" >Ссылка на фотографии</a></li>
+						<li class="last"><a href="/index.php?id=22" title="Ссылка на сервис" >Ссылка на сервис</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div id="footer">
+					<div class="grid_8 footer-contacts">
+						<p>Россия, 105203, Москва, Первомайская ул., д. 126</p>
+						<p><strong>тел.:</strong> +7 (495) 231-3040, 231-3050, <strong>EMail:</strong><a href="mailto:info@amata-sc.ru" title="email">info@amata-sc.ru</a></p>
+					</div>
+					<div class="grid_4 footer-logos">
+						<ul>
+							<li><a href="http://www.stinscoman.com/"><img alt="Stins Coman" src="assets/templates/amata/images/layout/sc-logo.png" /></a></li>
+							<li><img alt="НПП Техноимпорт" src="assets/templates/amata/images/layout/ti-logo.png" /></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="assets/js/mootools.js"></script>
+<script type="text/javascript" src="assets/js/amata.js"></script>
+</body>
+</html>

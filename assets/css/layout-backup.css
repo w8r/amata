@@ -1,0 +1,29 @@
+body{background: url(../templates/amata/images/layout/body-bg.png);}
+#container{ background:url(../templates/amata/images/layout/container-bg.png) repeat-y center; width: 100%; float: left;}
+#container-top{ background:url(../templates/amata/images/layout/container-top-bg.png) no-repeat top center; width: 100%; float: left}
+#container-bottom{ background:url(../templates/amata/images/layout/container-bottom-bg.png) no-repeat bottom center; width: 100%; float: left}
+#main-box-index{background: url(../templates/amata/images/layout/bg-01.jpg) no-repeat center 57px;}
+#main-box-description{background: url(../templates/amata/images/layout/bg-02.jpg) no-repeat center 57px;}
+#top-device{ display: block; width:376px; height:285px; float: left;}
+#main-box-index #top-device{ background: url(../templates/amata/images/layout/device-01.jpg);}
+#main-box-description #top-device{ background: url(../templates/amata/images/layout/device-02.jpg);}
+#logo{ display: block; width: 472px; height: 68px; background: url(../templates/amata/images/layout/logo.png); float: left; margin: 72px 0 0 20px;}
+#title{ background: url(../templates/amata/images/layout/title.png) no-repeat; width:500px; height: 41px; display: block; float:left; margin: 0 0 0 25px;}
+/* --- navigation --- */
+#navigation{float: left; width:652px; height: 47px; margin: 50px 0 0 -90px; display: block; background:  url(../templates/amata/images/layout/nav-bg.png) no-repeat;}
+#navigation ul{ float: left; margin: 0; padding: 0;}
+#navigation ul li{ float: left; display: block; padding: 0; margin: 0;}
+#navigation ul li a span{ display: none; }
+#navigation ul li a { display: block; height: 49px;}
+#navigation ul li#item02 a { background: url(../templates/amata/images/layout/nav-text-description-off.png) no-repeat center; width: 117px;}
+#navigation ul li#item02 a:hover { background: url(../templates/amata/images/layout/nav-text-description-on.png) no-repeat center;}
+#navigation ul li#item03 a { background: url(../templates/amata/images/layout/nav-text-photo-off.png) no-repeat center; width: 128px;}
+#navigation ul li#item03 a:hover { background: url(../templates/amata/images/layout/nav-text-photo-on.png) no-repeat center;}
+#navigation ul li#item04 a { background: url(../templates/amata/images/layout/nav-text-licence-off.png) no-repeat center; width: 107px;}
+#navigation ul li#item04 a:hover { background: url(../templates/amata/images/layout/nav-text-licence-on.png) no-repeat center;}
+#navigation ul li#item05 a { background: url(../templates/amata/images/layout/nav-text-publications-off.png) no-repeat center; width: 129px;}
+#navigation ul li#item05 a:hover { background: url(../templates/amata/images/layout/nav-text-publications-on.png) no-repeat center;}
+#navigation ul li#item06 a { background: url(../templates/amata/images/layout/nav-text-service-off.png) no-repeat center; width: 83px;}
+#navigation ul li#item06 a:hover { background: url(../templates/amata/images/layout/nav-text-service-on.png) no-repeat center;}
+#navigation ul li#item07 a { background: url(../templates/amata/images/layout/nav-text-buy-off.png) no-repeat center; width: 79px;}
+#navigation ul li#item07 a:hover { background: url(../templates/amata/images/layout/nav-text-buy-on.png) no-repeat center;}

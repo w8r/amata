@@ -1,0 +1,100 @@
+body{background: url(../templates/amata/images/layout/body-bg.png);}
+#container{ background:url(../templates/amata/images/layout/container-bg.png) repeat-y center; width: 100%; float: left;}
+#container-top{ background:url(../templates/amata/images/layout/container-top-bg.png) no-repeat top center; width: 100%; float: left}
+#container-bottom{ background:url(../templates/amata/images/layout/container-bottom-bg.png) no-repeat bottom center; width: 100%; float: left; padding-bottom: 10px;}
+#main-box-index{background: url(../templates/amata/images/layout/bg-01.jpg) no-repeat center 57px;}
+#main-box-description{background: url(../templates/amata/images/layout/bg-02.jpg) no-repeat center 57px;}
+#top-device{ display: block; width:376px; height:285px; float: left;}
+#main-box-index #top-device{ background: url(../templates/amata/images/layout/device-01.jpg);}
+#main-box-description #top-device{ background: url(../templates/amata/images/layout/device-03.jpg) no-repeat bottom; width: 373px; height: 313px;}
+#logo{ display: block; width: 472px; height: 68px; background: url(../templates/amata/images/layout/logo.png); float: left; margin: 72px 0 0 20px;}
+#title{ background: url(../templates/amata/images/layout/title.png) no-repeat; width:500px; height: 41px; display: block; float:left; margin: 0 0 0 25px;}
+/* --- navigation --- */
+#navigation{float: left; width:652px; height: 47px; margin: 50px 0 0 -90px; display: block; background:  url(../templates/amata/images/layout/nav-bg.png) no-repeat;}
+#navigation ul{ float: left; margin: 0; padding: 0;}
+#navigation ul li{ float: left; display: block; padding: 0; margin: 0;}
+#navigation ul li a span{ display: none; }
+#navigation ul li a { display: block; height: 49px;}
+#navigation ul li#item02 a { background: url(../templates/amata/images/layout/nav-unactive.png) no-repeat 0px 0px; width: 117px;}
+#navigation ul li#item02 a:hover { background: url(../templates/amata/images/layout/nav-active.png) no-repeat 0px 0px;}
+#navigation ul li#item03 a { background: url(../templates/amata/images/layout/nav-unactive.png) no-repeat -119px 0px; width: 128px;}
+#navigation ul li#item03 a:hover { background: url(../templates/amata/images/layout/nav-active.png) no-repeat -119px 0px;}
+#navigation ul li#item04 a { background: url(../templates/amata/images/layout/nav-unactive.png) no-repeat -246px 0px; width: 107px;}
+#navigation ul li#item04 a:hover { background: url(../templates/amata/images/layout/nav-active.png) no-repeat -246px 0px;}
+#navigation ul li#item05 a { background: url(../templates/amata/images/layout/nav-unactive.png) no-repeat -352px 0px; width: 129px;}
+#navigation ul li#item05 a:hover { background: url(../templates/amata/images/layout/nav-active.png) no-repeat -352px 0px;}
+#navigation ul li#item06 a { background: url(../templates/amata/images/layout/nav-unactive.png) no-repeat -481px 0px; width: 83px;}
+#navigation ul li#item06 a:hover { background: url(../templates/amata/images/layout/nav-active.png) no-repeat -481px 0px;}
+#navigation ul li#item07 a { background: url(../templates/amata/images/layout/nav-unactive.png) no-repeat -566px 0px; width: 79px;}
+#navigation ul li#item07 a:hover { background: url(../templates/amata/images/layout/nav-active.png) no-repeat -566px 0px;}
+#target-links-clients h2,
+#target-links-distributors h2,
+#target-links-drivers h2 { font-size: 1.3em; text-align: right; letter-spacing:-1px; line-height: 1em; padding-top: 5px; margin-bottom: 0;}
+#target-links-clients h2 { color: #5c7baf; border-bottom: 2px solid #5c7baf;}
+#target-links-distributors h2 { color: #7fa354; border-bottom: 2px solid #7fa354;}
+#target-links-drivers h2 { color: #d0843a; border-bottom: 2px solid #d0843a;}
+#target-links-clients ul,
+#target-links-distributors ul,
+#target-links-drivers ul { list-style: none; padding: 5px 0; margin: 0;}
+#target-links-clients ul li,
+#target-links-distributors ul li,
+#target-links-drivers ul li { text-align:right; margin:0; padding: 0; line-height: 1em;}
+#target-links-clients ul li a,
+#target-links-distributors ul li a,
+#target-links-drivers ul li a { text-decoration: none; font-weight: bold; font-size: 11px; line-height: 0.8em; padding: 0; margin: 0;}
+#target-links-clients ul li a:hover,
+#target-links-distributors ul li a:hover,
+#target-links-drivers ul li a:hover { text-decoration: underline;}
+#target-links-clients ul li a:visited,
+#target-links-distributors ul li a:visited,
+#target-links-drivers ul li a:visited { color: #777; }
+#target-links-clients ul li a { color: #5c7baf;}
+#target-links-distributors ul li a { color: #7fa354;}
+#target-links-drivers ul li a { color: #d0843a;}
+#footer { background: url(../templates/amata/images/layout/footer-bg.png) no-repeat left bottom; border-top: 1px solid #fff; margin-top: 15px;}
+#footer div.footer-logos { padding-top: 6px;}
+#footer div.footer-logos ul { float: right; list-style: none; padding: 0; margin: 0;}
+#footer div.footer-logos ul li { float: left; display: block;}
+#footer div.footer-contacts { padding-top: 6px; }
+#footer div.footer-contacts p { padding: 0; margin: 0; color: #98a6bc; font-size: 10px;}
+#footer div.footer-contacts p strong { font-weight: bold;}
+#footer div.footer-contacts p a { color: #98a6bc; text-decoration: underline;}
+#footer div.footer-contacts p a:hover { color: #fff;}
+p span.brand{ font-weight: bold;}
+#amata-dealers-map { border-top: 1px solid #bbb; border-left: 1px solid #bbb;width:928px;height:361px;}
+#amata-dealers-map-wrap { background: url(../templates/amata/images/layout/map-bg.png) no-repeat 9px 0px; padding: 0 9px 6px 0;}
+a.lightbox-link{text-decoration: none;}
+a.lightbox-link img{ background: #ddd; border: 1px solid #999; padding: 4px;}
+a.lightbox-link:hover img{ background: #aaa; border: 1px solid #555; padding: 4px;}
+#login-form{margin: 20px 0 20px 290px; float: left; display: block;}
+#login-form label{float: left; width: 200px;}
+#login-form input{float: left; width: 200px; border-width: 1px;}
+#login-form p{float: left; clear:both; margin: 0; padding: 3px}
+#login-form p a{color: #2a4c84;font-weight:bold; padding: 0 0 0 15px}
+/* --- forms --- */
+#ne_wrapper fieldset { border: 1px solid #ddd; padding: 10px;}
+#ne_wrapper fieldset input, #ne_wrapper fieldset textarea { border-width: 1px;}
+#ne_wrapper fieldset legend { font-weight: bold; font-size: 1.3em; color: #888; padding: 3px;}
+#ne_wrapper fieldset p{ display: block; clear: both;}
+#ne_wrapper fieldset p label { display: block; float: left; width: 180px;}
+#ne_wrapper fieldset input{ width: 200px;}
+#manage-news-list li{ clear: both; background: url(../templates/amata/images/layout/news-row-bottom.png) no-repeat bottom; margin: 0 8px 4px 10px; list-style: none; padding-bottom: 4px;}
+#manage-news-list li div.row-content{background: url(../templates/amata/images/layout/news-row.png) no-repeat top; padding: 4px;}
+#manage-news-list li div.nm_button{ float: right; display: inline;}
+#manage-news-list li div.nm_title{float: left}
+#manage-news-list li div.nm_eol{clear: both}
+#manage-news-list li div.nm_button input.button{ background: none; font-size: 10px; color: #556; font-weight: bold; padding: 2px 2px 3px 14px;}
+#manage-news-list li div.nm_button input.button-show{ background: url(../templates/amata/images/icons/page_link.png) no-repeat 0px 2px; width: 80px}
+#manage-news-list li div.nm_button input.button-edit{ background: url(../templates/amata/images/icons/page_edit.png) no-repeat 0px 2px; width: 110px}
+#manage-news-list li div.nm_button input.button-delete{ background: url(../templates/amata/images/icons/bin.png) no-repeat 0px 2px; width: 75px}
+#manage-news-list li div.nm_button input.button-top{ background: url(../templates/amata/images/icons/page_white_get.png) no-repeat 0px 2px; width: 75px}
+#manage-news-list li div.nm_button input.button-menu{ background: url(../templates/amata/images/icons/table_row_delete.png) no-repeat 0px 2px; width: 25px}
+#manage-news-list li div.nm_button input.button-unpublish{ background: url(../templates/amata/images/icons/page_unpublish.png) no-repeat 0px 2px; }
+#manage-news-list li div.nm_button input.button-publish{ background: url(../templates/amata/images/icons/page.png) no-repeat 0px 2px;}
+#manage-news-list li div.nm_title { background: url(../templates/amata/images/icons/page.png) no-repeat 0px 2px; padding-left: 20px;}
+#manage-news-list li div.nm_title h2,
+#manage-news-list li div.nm_title h3{letter-spacing: normal; padding: 0; margin: 0;}
+#manage-news-list li div.nm_title h2{ font-size: 12px;}
+#manage-news-list li div.nm_title h3{ font-size: 10px;}
+#manage-news-list li div.nm_title h3 a { color: #777;}
+#manage-news-list li.create-new a {font-weight: bold; font-size: 11px; color: #777; background: url(../templates/amata/images/icons/page_add.png) no-repeat 0px 2px; padding-left: 20px; display: block; height: 20px;}
